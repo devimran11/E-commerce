@@ -17,43 +17,43 @@
                     </tr>
                     <tr>
                         <th>Category Name</th>
-                        <td>ID</td>
+                        <td>{{$product->category_name}}</td>
                     </tr>
                     <tr>
                         <th>Brand Name</th>
-                        <td>ID</td>
+                        <td>{{$product->brand_name}}</td>
                     </tr>
                     <tr>
                         <th>Product Name</th>
-                        <td>ID</td>
+                        <td>{{$product->product_name}}</td>
                     </tr>
                     <tr>
                         <th>Product Code</th>
-                        <td>ID</td>
+                        <td>{{$product->product_code}}</td>
                     </tr>
                     <tr>
                         <th>Product Price</th>
-                        <td>ID</td>
+                        <td>{{$product->product_price}}</td>
                     </tr>
                     <tr>
                         <th>Product Quantity</th>
-                        <td>ID</td>
+                        <td>{{$product->product_quantity}}</td>
                     </tr>
                     <tr>
                         <th>Product Short Description</th>
-                        <td>ID</td>
+                        <td>{{$product->short_description}}</td>
                     </tr>
                     <tr>
                         <th>Product Long Description</th>
-                        <td>ID</td>
+                        <td>{{$product->long_description}}</td>
                     </tr>
                     <tr>
                         <th>Product Image</th>
-                        <td>ID</td>
+                        <td><img src="{{URL::to($product->product_image)}}" height="50px" width="50px"></td>
                     </tr>
                     <tr>
                         <th>Publication Status</th>
-                        <td>ID</td>
+                        <td>{{$product->publication_status}}</td>
                     </tr>
                 </table>
             </div>
